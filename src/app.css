@@ -1,0 +1,41 @@
+
+
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1000px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: auto;
+      width: 300px;
+    }
+    
+    /* Set black background color, white text and some padding */
+    header {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    iframe{
+        border : none;
+        height : 800px;
+        width : 750px;
+    }
+    
+    
+    .apilink{
+
+      color: #ffffff;
+      font-size: 0.75em;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 12px;
+      }
+      .row.content {height: auto;} 
+    }
+  
